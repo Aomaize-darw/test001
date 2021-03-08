@@ -42,6 +42,6 @@ def get_xls():
     for i in range(nrows):
         cls.append(sheet.row_values(i))
     return cls
-if __name__ == '__main__':
+if __name__ == '__main__'
     print(get_xls())
 
